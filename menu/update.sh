@@ -32,7 +32,7 @@ certifacate=$(((d1 - d2) / 86400))
 echo -e " [INFO] Fetching server date..."
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
-REPO="https://raw.githubusercontent.com/GANTI PAKAI REPO MU/main/"
+REPO="https://raw.githubusercontent.com/titis69/liwung2025/main/"
 pwadm="@Peyx23"
 Username="peyx"
 Password="$pwadm"
