@@ -1,6 +1,6 @@
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
-REPO="https://raw.githubusercontent.com/GANTI PAKAI REPO MU/main/"
+REPO="https://raw.githubusercontent.com/titis69/liwung2025/main/"
 
 # Color definitions
 green="\e[38;5;82m"
@@ -20,7 +20,7 @@ SPINNER=("⣷" "⣯" "⣟" "⡿" "⢿" "⣻" "⣽" "⣾")
 
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/GANTI PAKAI REPO MU/main/ipx | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://raw.githubusercontent.com/titis69/permission/main/lewung | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Pasang
@@ -185,7 +185,7 @@ clear
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│              ${bold_white}🙏 TERIMA KASIH             ${green}│${NC}"
 echo -e "${green}│         ${bold_white}SUDAH MENGGUNAKAN SCRIPT         ${green}│${NC}"
-echo -e "${green}│              ${bold_white}🚀 PEYX TUNNELING           ${green}│${NC}"
+echo -e "${green}│              ${bold_white}🚀 BERLIAN           ${green}│${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 echo ""
 
@@ -437,8 +437,8 @@ res9
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="7661292905"
-KEY="8485191955:AAE3H7QmWVprrGwRpWYIvEZHYf6DArQtWV4"
+CHATID="1507094635"
+KEY="7058358156:AAHL7dXE47BwT9L80yjXm2NfcOtuirVRITs"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
@@ -447,7 +447,7 @@ TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IZIN=$(curl -sS https://raw.githubusercontent.com/GANTI PAKAI REPO MU/main/ipx | grep $MYIP | awk '{print $3}' )
+IZIN=$(curl -sS https://raw.githubusercontent.com/titis69/permission/main/lewung | grep $MYIP | awk '{print $3}' )
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
 EXP=$(( (d1 - d2) / 86400 ))
@@ -574,3 +574,4 @@ exit 0
 else
 reboot
 fi
+
