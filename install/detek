@@ -13,8 +13,8 @@ date_list=$(date +"%Y-%m-%d" -d "$data_server")
 notif_izin() {
 #!/bin/bash
 TIME="10"
-CHATID="7661292905"
-KEY="7916829256:AAHB-_Jv24fTQfR98HA6eNogR8zzYzChw6g"
+CHATID="1507094635"
+KEY="7058358156:AAHL7dXE47BwT9L80yjXm2NfcOtuirVRITs"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # Generate password baru secara acak (12 karakter)
 new_password=$(</dev/urandom tr -dc a-z0-9 | head -c5)
