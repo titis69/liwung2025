@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 # Getting
 
 # Download File Ohp
- wget -O /usr/local/bin/ohpserver "http://raw.githubusercontent.com/GANTI PAKAI REPO MU/main/sshws/ohpserver"
+ wget -O /usr/local/bin/ohpserver "http://raw.githubusercontent.com/titis69/liwung2025/main/sshws/ohpserver"
  chmod +x /usr/local/bin/ohpserver
 # Installing Service
 # SSH OHP Port 8181
