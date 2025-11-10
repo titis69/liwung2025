@@ -466,7 +466,7 @@ TEXT="
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 #<i> Notifikasi Installer Script...</i>
 #"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/frel01"},{"text":"🔥GRUP","url":"https://t.me/pxstoree"}]]}'
-#curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
 
